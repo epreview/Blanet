@@ -14,3 +14,15 @@ git clone https://github.com/epreview/blanet.git
 ```shell
 dotnet new blazor -au Individual | dotnet ef database update -- --environment Production
 ```
+
+3. Add component
+
+```shell
+dotnet new razorcomponent -n Todo -o Components/Pages
+```
+
+4. Run
+
+```shell
+dotnet watch
+```
